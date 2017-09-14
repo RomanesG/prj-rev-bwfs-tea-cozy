@@ -1,0 +1,195 @@
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+}
+
+/*HEADER*/
+
+header {
+	display: flex;
+	border-bottom: 1px solid seashell;
+	background-color: black;
+	justify-content: space-between;
+	z-index: 1;
+	width: 100%;
+	position: fixed;
+	align-items: center;
+	height: 69px;
+	top: 0px;
+	left: 0px;
+}
+
+
+.logo img {
+   height: 50px;
+   margin-right: 12px;
+   padding-left: 10px;
+}
+
+
+
+nav a {
+	color: white;
+	padding-right: 20px;
+	text-decoration: underline;
+}
+
+/*CONTENT*/
+
+.content {
+	display: flex;
+	align-content: flex-end;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+}
+
+.image {
+  display: flex;
+}
+
+.first {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("fruit.jpg");
+	width: 1200px;
+	height: 700px;
+	flex-direction: row;
+}
+
+.mission {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	width: 1200px;
+	height: 80px;
+	padding-bottom: 25px;
+	flex-direction: column;
+	margin-top: 150px;
+}
+
+.mission span {
+	height: 50px;
+}
+
+.second {
+	display: flex;
+	flex-direction: column;
+	width: 1000px;
+	padding-top: 69px;
+	padding-bottom: 69px;
+}
+
+.text {
+	display: block;
+	text-align: center;
+}
+
+.text h2 {
+	padding: -10px;
+}
+
+.text h4 {
+	padding: -10px;
+}
+
+.foto {
+	width: 300px;
+	height: 200px
+	margin-bottom: 5px;
+}
+
+.px h4 {
+	margin-top: 10px;
+}
+
+.store {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.myrtle {
+	padding-left: 170px;
+}
+
+.bredford {
+	padding-right: 170px;
+}
+
+.five.foto {
+	width: 300px;
+	height: 200px;
+}
+
+.third {
+	width: 1200px;
+	height: 500px;
+	background-image: url("black.jpg");
+	display: block;
+	padding-top: 70px;
+}
+
+.inside {
+	display: block;
+	margin: 15px;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 50px;
+}
+
+.locations {
+	display: block;
+	margin: 5px;
+	padding-top: 25px;
+}
+
+.box {
+	background-color: black;
+	display: flex;
+	align-items: center;
+	color: seashell;
+	opacity: 1;
+	width: 300px;
+	height: 300px;
+	flex-direction: column;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.foot {
+	height: 200px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin: 10px;
+	padding-bottom: 50px;
+	margin-top: -25px;
+}
+
+.foot h2 {
+	margin-bottom: 15px;
+}
+
+.foot h5 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.copyright {
+	text-align: left;
+	margin-left: 20px;
+	height: 69px;
+}
